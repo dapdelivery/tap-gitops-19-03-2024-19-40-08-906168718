@@ -1,0 +1,27 @@
+tap_install:
+    sensitive_values:
+        shared:
+            ingress_domain: ENC[AES256_GCM,data:JD18s8NjygmKmAgu7q8v9SrAtlRB9y6eEhs+o/R8mE5JtoFGV0g0cmEcmdKTwOwCgibjhZwz,iv:y5gM63lBpMqj6/1Adv98HBowmvQypU/Peh7DtjG6as0=,tag:/rpU8kppQ57bYtRz2JM1xQ==,type:str]
+            ingress_issuer: ""
+            kubernetes_distribution: ENC[AES256_GCM,data:NJ6f6E2D2ROS,iv:CTiDUsVfZ9w81iD40OlSzv+ggg7n3x6vqCe2+OTU4Io=,tag:uPI76ywVi9d5SI6qoGrowQ==,type:str]
+            kubernetes_version: ENC[AES256_GCM,data:Ou7tp5qs,iv:wzfr/9SE0f9eaGm4E/6Ooejv/RmOlFJQT2ctE7vWPp8=,tag:B/ZhsssAtJQ2oNsK7LOVbA==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age140kfw9jqh7d63svrgf8rpjaf8mteg507va4s98pnjtl975qe6stqfpaxvv
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBENjNLSHFCMnVxejdEeUFm
+            UUJqKzFXVU9STUlZYmFzS0hRZ2pnUGF3Y3pRClZnS25od2FaanhxS0t0eWNTSkpT
+            YjBIK2o4VFlsZ2l5M2pLWXRISmEwRFEKLS0tIEwyc3U3d21RN0ZRdVlGa2JqUm9U
+            eHdNandLcTBLdGtlcmEyTjFCVDRBMWMKdfhY3vHnYj7ISmTq7iZR7F5df1tHQsaM
+            pp0wjUrBJJsarhC4z3dd4gV9wInLgPAWGFgKWoWKe52JSANXj+8pvA==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2024-03-19T20:47:05Z"
+    mac: ENC[AES256_GCM,data:ssYg1nViiaCee1n6p7Nrjhkt4GnAyTyzXgg9TvwGMX6eD+yfCOqqPFDbWM0i9H2NInWKBr/rZNFaaVNM8V+NwOjKeXvMvCSV8DzJ9VdoiMPzhIuD1rK8l7766bRX4/kp3jGiKXtlENdG9+Gllsd3f2nePacW88Gtfjn1SWTw7c4=,iv:/4qJJCZCfaJSlngmHc3egFh8knKk2tkHhP+stC41c8U=,tag:trAaMa7TyJuTFTeknjTO6A==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.3

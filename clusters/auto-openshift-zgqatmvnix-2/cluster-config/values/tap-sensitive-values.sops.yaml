@@ -1,0 +1,30 @@
+tap_install:
+    sensitive_values:
+        shared:
+            image_registry:
+                project_path: ENC[AES256_GCM,data:iPAAi/zwDqwYpwq8aWDZpuIuRnGTpw9gzFGwTL5q4HyDHpV6qBT+WtaTwOkmFSH4GSOs6t38110RmqdZrvhart505gDJ2FTEtASR8HsHvuNDw6o=,iv:LjCV066oq3rh5hPw96kGxQX8FgKIZBOZwjCmQrOJeCw=,tag:shLDPjEcAe5eGiHt/4Pq0A==,type:str]
+                secret:
+                    name: ENC[AES256_GCM,data:enoiUoNOHCo1X2oV8+9jZJ6QudI=,iv:OO5Jhq0vUk4kWXF6nkXfKD4WNSLOqA30i29VZnwQXg0=,tag:4jZ+o30gooONXkWRHpBzPQ==,type:str]
+                    namespace: ENC[AES256_GCM,data:4DhW1YjxIQ==,iv:aevLUZDUTYV6g1mtz/VSt/xH8ejnV6SGtrqPTu6jGI0=,tag:Iz1/rXIHl1xvt6davdMKUQ==,type:str]
+            kubernetes_distribution: ENC[AES256_GCM,data:QHikiLG/bzuf,iv:yghPahPW/o15nmnDGslpM/vP14KvJ6RLsg1aGRNq/XY=,tag:/qFdsAyecxa0Xj/sj0/nKg==,type:str]
+            kubernetes_version: ENC[AES256_GCM,data:Cz6kWEEp,iv:HecVmR+uUnCfmO4xkQfFO0aQ56rY/PAqRrRgA/Rkdvw=,tag:NCLf1qpIJRxkiUtg1l223A==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age140kfw9jqh7d63svrgf8rpjaf8mteg507va4s98pnjtl975qe6stqfpaxvv
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA4VWNQU0FtM1dyVTM5OVly
+            OGhWeHpZNERvOXhiT3BKUmxSSzlSYlJFSUY0CkRBa0pYcHA4Z1NhNHpmcGpsUWJS
+            U2t3MVJWTjJNUHdjM0J1SXJncE9NcUEKLS0tIHJFb3ZocExmSG9oZWEzemd4MXl0
+            KzlvVWhqQXNKdlJEZkhvQzBBbXZUdWsK8H8szcBkgfoeYyiUpZJvA6n/LzhBWl/V
+            TNtVaP4ebwFAC1BIGy22j21Qc2wDNYT7Oshm8PdPxqxb1nKKBmXoqQ==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2024-03-19T20:47:05Z"
+    mac: ENC[AES256_GCM,data:WdUsLhxomnyajhuDC5xm5HiF3x+9MRVXQFTELqGv311WFn8YkatrivjpLw1og0daFd9yp2nuAIkUxxbokOOPVuf3cysIY3zRXvneCGB8mFJ0bmcqXMq00M6l3A9XxU6nu2nUhL/tce0R8bkJBza3Hg9Ev7N62jns+9BFnhMKyak=,iv:5YYkWEJfHt4ty0TLfZlsFOk5pfxOHYQmdh8D6zZpFLA=,tag:PNDDcn4Hm5G3ZAKmTcVSiA==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.3
